@@ -1,0 +1,49 @@
+.overlay{
+    position: absolute;
+    top: 190px;
+    left: 150px;
+    color: black;
+ }
+ 
+ .img{
+    width: 2000px;
+    height: 100px;
+    object-fit: cover;
+    background-size: cover;
+ }
+ #home{
+    height: 370px;
+    background-image: url(https://www.shutterstock.com/image-photo/banner-black-wireless-headphones-on-260nw-2308192165.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .overnum{
+    position: relative;
+    top: 28%;
+ }
+ .icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: orange;
+    margin: 10px;
+    border-radius: 50%;
+
+ }
+ .row .col{
+    padding:25px;
+    width: 250px;
+    /* height: 150px;  */
+    justify-content: space-between;
+    position: relative;
+ }
+  
+ .hover-overlay .row .col:hover{
+    opacity: 0.2;
+ }
+ .icon1 a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+
+ }
